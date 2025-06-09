@@ -1,0 +1,14 @@
+2025-06-09 07:20:45,764 - INFO - Pipeline scheduler started
+2025-06-09 07:20:45,764 - INFO - Starting execution of D:\pipeline_testing\src\crew\tools\youtube_transcript_fetcher.py
+2025-06-09 07:21:15,501 - INFO - Successfully completed D:\pipeline_testing\src\crew\tools\youtube_transcript_fetcher.py
+2025-06-09 07:21:20,512 - INFO - Starting execution of D:\pipeline_testing\src\crew\tools\chunking_pipeline.py
+2025-06-09 07:27:56,859 - INFO - Pipeline scheduler started
+2025-06-09 07:27:56,859 - INFO - This script will:
+2025-06-09 07:27:56,859 - INFO - 1. Check for today's output folder in outputs/youtube/
+2025-06-09 07:27:56,859 - INFO - 2. Run the pipeline if the folder doesn't exist
+2025-06-09 07:27:56,859 - INFO - 3. Schedule checks for 00:00 UTC every day
+2025-06-09 07:27:56,868 - INFO - 4. Continue running until manually stopped (Ctrl+C)
+2025-06-09 07:27:56,868 - INFO - Next scheduled check at 2025-06-10 00:00:00 UTC (in 22.03 hours)
+2025-06-09 07:27:56,871 - INFO - Output folder for today (2025-06-09) already exists at outputs\youtube\2025-06-09
+2025-06-09 07:27:56,872 - INFO - Skipping pipeline run at 2025-06-09 01:57:56 UTC - output folder already exists
+2025-06-09 07:28:15,683 - INFO - Scheduler stopped by user (Ctrl+C). You can restart it anytime to resume scheduling.

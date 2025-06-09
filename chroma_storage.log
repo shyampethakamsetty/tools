@@ -1,0 +1,39 @@
+2025-06-09 07:08:33,329 - __main__ - INFO - [chroma_storage.py:49] - Initializing ChromaDB client with persist directory: chroma_db
+2025-06-09 07:08:35,700 - __main__ - INFO - [chroma_storage.py:77] - Created new collection 'youtube_transcripts'
+2025-06-09 07:08:35,701 - __main__ - INFO - [chroma_storage.py:215] - Processing directory: outputs\youtube\2025-06-09\processed
+2025-06-09 07:08:35,703 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\28SdDfJh6YA.json
+2025-06-09 07:08:35,804 - __main__ - INFO - [chroma_storage.py:178] - Added 5 new chunks from outputs\youtube\2025-06-09\processed\28SdDfJh6YA.json
+2025-06-09 07:08:35,804 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\3A2lypgjMhI.json
+2025-06-09 07:08:35,861 - __main__ - INFO - [chroma_storage.py:178] - Added 5 new chunks from outputs\youtube\2025-06-09\processed\3A2lypgjMhI.json
+2025-06-09 07:08:35,861 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\6Wt5kOrxsDA.json
+2025-06-09 07:08:35,909 - __main__ - INFO - [chroma_storage.py:178] - Added 7 new chunks from outputs\youtube\2025-06-09\processed\6Wt5kOrxsDA.json
+2025-06-09 07:08:35,909 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\9dbkma8Uf50.json
+2025-06-09 07:08:35,950 - __main__ - INFO - [chroma_storage.py:178] - Added 6 new chunks from outputs\youtube\2025-06-09\processed\9dbkma8Uf50.json
+2025-06-09 07:08:35,950 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\e5VzrRJTwdw.json
+2025-06-09 07:08:35,985 - __main__ - INFO - [chroma_storage.py:178] - Added 2 new chunks from outputs\youtube\2025-06-09\processed\e5VzrRJTwdw.json
+2025-06-09 07:08:35,985 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\eMr7TOMVJL8.json
+2025-06-09 07:08:36,030 - __main__ - INFO - [chroma_storage.py:178] - Added 6 new chunks from outputs\youtube\2025-06-09\processed\eMr7TOMVJL8.json
+2025-06-09 07:08:36,031 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\fbOWnrZe0-c.json
+2025-06-09 07:08:36,076 - __main__ - INFO - [chroma_storage.py:178] - Added 5 new chunks from outputs\youtube\2025-06-09\processed\fbOWnrZe0-c.json
+2025-06-09 07:08:36,076 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\FbqQ3f4j-TA.json
+2025-06-09 07:08:36,111 - __main__ - INFO - [chroma_storage.py:178] - Added 3 new chunks from outputs\youtube\2025-06-09\processed\FbqQ3f4j-TA.json
+2025-06-09 07:08:36,113 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\Fs0MMrzfISg.json
+2025-06-09 07:08:36,156 - __main__ - INFO - [chroma_storage.py:178] - Added 5 new chunks from outputs\youtube\2025-06-09\processed\Fs0MMrzfISg.json
+2025-06-09 07:08:36,158 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\JEAFTFZFv9E.json
+2025-06-09 07:08:36,197 - __main__ - INFO - [chroma_storage.py:178] - Added 4 new chunks from outputs\youtube\2025-06-09\processed\JEAFTFZFv9E.json
+2025-06-09 07:08:36,197 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\n5Hyz1EeBoU.json
+2025-06-09 07:08:36,237 - __main__ - INFO - [chroma_storage.py:178] - Added 4 new chunks from outputs\youtube\2025-06-09\processed\n5Hyz1EeBoU.json
+2025-06-09 07:08:36,238 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\ny8AALPloQQ.json
+2025-06-09 07:08:36,281 - __main__ - INFO - [chroma_storage.py:178] - Added 6 new chunks from outputs\youtube\2025-06-09\processed\ny8AALPloQQ.json
+2025-06-09 07:08:36,283 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\su6Si4J7rRk.json
+2025-06-09 07:08:36,331 - __main__ - INFO - [chroma_storage.py:178] - Added 5 new chunks from outputs\youtube\2025-06-09\processed\su6Si4J7rRk.json
+2025-06-09 07:08:36,333 - __main__ - INFO - [chroma_storage.py:92] - Processing file: outputs\youtube\2025-06-09\processed\ZdGt-KL4yb0.json
+2025-06-09 07:08:36,380 - __main__ - INFO - [chroma_storage.py:178] - Added 3 new chunks from outputs\youtube\2025-06-09\processed\ZdGt-KL4yb0.json
+2025-06-09 07:08:36,380 - __main__ - INFO - [chroma_storage.py:224] - Directory processing complete. Stats: {'added': 66, 'skipped': 0, 'errors': 0}
+2025-06-09 07:08:53,135 - chroma_storage - INFO - [chroma_storage.py:49] - Initializing ChromaDB client with persist directory: chroma_db
+2025-06-09 07:08:53,474 - chroma_storage - INFO - [chroma_storage.py:69] - Retrieved existing collection 'youtube_transcripts'
+2025-06-09 07:09:44,834 - chroma_storage - INFO - [chroma_storage.py:49] - Initializing ChromaDB client with persist directory: chroma_db
+2025-06-09 07:09:45,198 - chroma_storage - INFO - [chroma_storage.py:69] - Retrieved existing collection 'youtube_transcripts'
+2025-06-09 07:09:45,347 - llm_client - INFO - [llm_client.py:52] - Initialized Azure OpenAI client with deployment: gpt-4o-mini
+2025-06-09 07:09:45,959 - llm_client - INFO - [llm_client.py:73] - Generating response using deployment: gpt-4o-mini
+2025-06-09 07:09:55,814 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"

@@ -1,0 +1,263 @@
+2025-06-09 07:01:44,326 - INFO - Python version: 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+2025-06-09 07:01:44,326 - INFO - Current working directory: D:\pipeline_testing
+2025-06-09 07:01:44,330 - INFO - Loading environment variables
+2025-06-09 07:01:44,330 - INFO - Initializing Azure OpenAI client
+2025-06-09 07:01:44,331 - ERROR - Failed to initialize Azure OpenAI client: Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+Traceback (most recent call last):
+  File "D:\pipeline_testing\src\crew\tools\chunking_pipeline.py", line 43, in <module>
+    client = AzureOpenAI(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\lib\azure.py", line 167, in __init__
+    raise OpenAIError(
+openai.OpenAIError: Missing credentials. Please pass one of `api_key`, `azure_ad_token`, `azure_ad_token_provider`, or the `AZURE_OPENAI_API_KEY` or `AZURE_OPENAI_AD_TOKEN` environment variables.
+2025-06-09 07:02:47,575 - INFO - Python version: 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+2025-06-09 07:02:47,575 - INFO - Current working directory: D:\pipeline_testing
+2025-06-09 07:02:47,575 - INFO - Loading environment variables
+2025-06-09 07:02:47,578 - INFO - Initializing Azure OpenAI client
+2025-06-09 07:02:47,578 - ERROR - Failed to initialize Azure OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "D:\pipeline_testing\src\crew\tools\chunking_pipeline.py", line 43, in <module>
+    client = AzureOpenAI(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\lib\azure.py", line 205, in __init__
+    super().__init__(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-06-09 07:05:17,581 - INFO - Python version: 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+2025-06-09 07:05:17,582 - INFO - Current working directory: D:\pipeline_testing
+2025-06-09 07:05:17,583 - INFO - Loading environment variables
+2025-06-09 07:05:17,586 - INFO - Initializing Azure OpenAI client
+2025-06-09 07:05:17,586 - ERROR - Failed to initialize Azure OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "D:\pipeline_testing\src\crew\tools\chunking_pipeline.py", line 43, in <module>
+    client = AzureOpenAI(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\lib\azure.py", line 205, in __init__
+    super().__init__(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "D:\pipeline_testing\venv\lib\site-packages\openai\_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-06-09 07:06:47,349 - INFO - Python version: 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+2025-06-09 07:06:47,350 - INFO - Current working directory: D:\pipeline_testing
+2025-06-09 07:06:47,350 - INFO - Loading environment variables
+2025-06-09 07:06:47,352 - INFO - Initializing Azure OpenAI client
+2025-06-09 07:06:48,561 - INFO - Azure OpenAI client initialized successfully
+2025-06-09 07:06:48,564 - INFO - Initializing sentence transformer model
+2025-06-09 07:06:48,564 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 07:06:55,115 - INFO - Use pytorch device: cpu
+2025-06-09 07:06:55,115 - INFO - Sentence transformer model initialized successfully
+2025-06-09 07:06:55,115 - INFO - === Starting Chunking Pipeline ===
+2025-06-09 07:06:55,115 - INFO - Searching for latest date folder in: D:\pipeline_testing
+2025-06-09 07:06:55,115 - INFO - Latest date folder found: D:\pipeline_testing\outputs\youtube\2025-06-09
+2025-06-09 07:06:55,115 - INFO - Processing transcripts from: D:\pipeline_testing\outputs\youtube\2025-06-09
+2025-06-09 07:06:55,115 - INFO - Created processed directory: D:\pipeline_testing\outputs\youtube\2025-06-09\processed
+2025-06-09 07:06:55,126 - INFO - Found 16 transcript files to process
+2025-06-09 07:06:55,127 - INFO - Processing: 28SdDfJh6YA.json
+2025-06-09 07:06:55,127 - INFO - [OK] Read transcript file 28SdDfJh6YA.json
+2025-06-09 07:06:55,130 - INFO - Processing: 3A2lypgjMhI.json
+2025-06-09 07:06:55,130 - INFO - Video: IT'S BEEN A MONTH AND YOU HAVE NOT REALIZED (9 JUN) - SPY QQQ OPTIONS ES NQ SWING & DAY TRADING (28SdDfJh6YA)
+2025-06-09 07:06:55,130 - INFO - Processing: 6Wt5kOrxsDA.json
+2025-06-09 07:06:55,130 - INFO - Processing: 9dbkma8Uf50.json
+2025-06-09 07:06:55,130 - INFO - Channel: SPY Day Trading
+2025-06-09 07:06:55,130 - INFO - Processing: e5VzrRJTwdw.json
+2025-06-09 07:06:55,130 - INFO - [OK] Read transcript file 3A2lypgjMhI.json
+2025-06-09 07:06:55,130 - INFO - Processing: eMr7TOMVJL8.json
+2025-06-09 07:06:55,130 - INFO - Published: 2025-06-08T12:54:23+00:00
+2025-06-09 07:06:55,138 - INFO - [OK] Read transcript file 6Wt5kOrxsDA.json
+2025-06-09 07:06:55,138 - INFO - Processing: fbOWnrZe0-c.json
+2025-06-09 07:06:55,139 - INFO - [OK] Read transcript file 9dbkma8Uf50.json
+2025-06-09 07:06:55,139 - INFO - Video: Gold/Silver/Platinum - Elliott Wave Weekly Update 6/08/2025 by Michael Filighera (3A2lypgjMhI)
+2025-06-09 07:06:55,140 - INFO - Processing: FbqQ3f4j-TA.json
+2025-06-09 07:06:55,140 - INFO - [OK] Read transcript file e5VzrRJTwdw.json
+2025-06-09 07:06:55,141 - INFO - Transcript length: 9080 characters
+2025-06-09 07:06:55,141 - INFO - Processing: Fs0MMrzfISg.json
+2025-06-09 07:06:55,143 - INFO - Video: 2000 OR 2008 TOP?! Stock Market Weekly Analysis 6-8-25 (6Wt5kOrxsDA)
+2025-06-09 07:06:55,144 - INFO - [OK] Read transcript file eMr7TOMVJL8.json
+2025-06-09 07:06:55,144 - INFO - Processing: gXeoRbJ-_cc.json
+2025-06-09 07:06:55,145 - INFO - Video: AAPL WWDC, TSLA & Trump, MSFT All-Time High: Charting Mag 7 Developments (9dbkma8Uf50)
+2025-06-09 07:06:55,146 - INFO - Channel: Traders Helping Traders
+2025-06-09 07:06:55,146 - INFO - [OK] Read transcript file fbOWnrZe0-c.json
+2025-06-09 07:06:55,147 - INFO - Video: S&P 500 Technical Analysis – Pullback Coming Weeks? | Week 23 2025 (e5VzrRJTwdw)
+2025-06-09 07:06:55,149 - INFO - [OK] Read transcript file FbqQ3f4j-TA.json
+2025-06-09 07:06:55,149 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,149 - INFO - [OK] Read transcript file Fs0MMrzfISg.json
+2025-06-09 07:06:55,149 - INFO - Channel: Optionstender
+2025-06-09 07:06:55,149 - INFO - Video: MASSIVE WEEK FOR STOCKS! 5 STOCKS TO BUY NOW?🔥 (eMr7TOMVJL8)
+2025-06-09 07:06:55,152 - INFO - [OK] Read transcript file gXeoRbJ-_cc.json
+2025-06-09 07:06:55,152 - INFO - Channel: Schwab Network
+2025-06-09 07:06:55,152 - INFO - Published: 2025-06-08T21:32:35+00:00
+2025-06-09 07:06:55,152 - INFO - Video: 100% dividend?! Too good to be true?? (fbOWnrZe0-c)
+2025-06-09 07:06:55,152 - INFO - Channel: Eliot Traders Club
+2025-06-09 07:06:55,152 - INFO - Video: Alaska natural gas reserves could supply US for decades, expert says (FbqQ3f4j-TA)
+2025-06-09 07:06:55,157 - INFO - Video: INFLATION WEEK: The SPY Price Action You NEED to Know (Fs0MMrzfISg)
+2025-06-09 07:06:55,158 - INFO - Published: 2025-06-08T18:00:13+00:00
+2025-06-09 07:06:55,159 - INFO - Channel: Stas Talks Stocks
+2025-06-09 07:06:55,160 - INFO - Video: Take control of your finances and pay your bills. (gXeoRbJ-_cc)
+2025-06-09 07:06:55,160 - INFO - Published: 2025-06-08T22:00:08+00:00
+2025-06-09 07:06:55,160 - INFO - Transcript length: 28334 characters
+2025-06-09 07:06:55,160 - INFO - Channel: kenneth suna
+2025-06-09 07:06:55,160 - INFO - Published: 2025-06-08T10:02:52+00:00
+2025-06-09 07:06:55,163 - INFO - Channel: Fox Business
+2025-06-09 07:06:55,163 - INFO - Channel: Supernova Trades
+2025-06-09 07:06:55,164 - INFO - Transcript length: 20257 characters
+2025-06-09 07:06:55,164 - INFO - Published: 2025-06-08T16:00:55+00:00
+2025-06-09 07:06:55,166 - INFO - Channel: Yahoo Finance
+2025-06-09 07:06:55,166 - INFO - Transcript length: 16814 characters
+2025-06-09 07:06:55,166 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,166 - INFO - Published: 2025-06-09T01:14:34+00:00
+2025-06-09 07:06:55,166 - INFO - Transcript length: 930 characters
+2025-06-09 07:06:55,166 - INFO - Published: 2025-06-08T12:00:33+00:00
+2025-06-09 07:06:55,166 - INFO - Published: 2025-06-08T19:34:37+00:00
+2025-06-09 07:06:55,166 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,166 - INFO - Transcript length: 12172 characters
+2025-06-09 07:06:55,166 - INFO - Published: 2025-06-08T15:30:31+00:00
+2025-06-09 07:06:55,166 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,172 - INFO - Transcript length: 5673 characters
+2025-06-09 07:06:55,172 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,174 - INFO - Transcript length: 1777 characters
+2025-06-09 07:06:55,175 - INFO - Transcript length: 10948 characters
+2025-06-09 07:06:55,176 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,176 - INFO - Transcript length: 656 characters
+2025-06-09 07:06:55,178 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,178 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,179 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:06:55,179 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:02,827 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:02,837 - INFO - Successfully parsed 0 chunks
+2025-06-09 07:07:02,838 - WARNING - [SKIP] Failed to create chunks for gXeoRbJ-_cc
+2025-06-09 07:07:02,838 - INFO - Processing: JEAFTFZFv9E.json
+2025-06-09 07:07:02,839 - INFO - [OK] Read transcript file JEAFTFZFv9E.json
+2025-06-09 07:07:02,840 - INFO - Video: BETTER STRATEGY THAN SELLING CASH SECURED PUTS? | TRADING OPTIONS (JEAFTFZFv9E)
+2025-06-09 07:07:02,842 - INFO - Channel: TechConversations
+2025-06-09 07:07:02,842 - INFO - Published: 2025-06-08T17:15:49+00:00
+2025-06-09 07:07:02,844 - INFO - Transcript length: 11687 characters
+2025-06-09 07:07:02,844 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:07,177 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:07,184 - INFO - Successfully parsed 2 chunks
+2025-06-09 07:07:07,184 - INFO - Creating embeddings for 2 chunks...
+2025-06-09 07:07:07,184 - INFO - Creating embeddings for 2 chunks
+2025-06-09 07:07:07,580 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:07,583 - INFO - [OK] Saved 2 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\e5VzrRJTwdw.json
+2025-06-09 07:07:07,586 - INFO - Processing: n5Hyz1EeBoU.json
+2025-06-09 07:07:07,589 - INFO - [OK] Read transcript file n5Hyz1EeBoU.json
+2025-06-09 07:07:07,589 - INFO - Video: Gen Z can't fully put the blame on the education environment for this: Lahren (n5Hyz1EeBoU)
+2025-06-09 07:07:07,589 - INFO - Channel: Fox Business
+2025-06-09 07:07:07,589 - INFO - Published: 2025-06-08T14:30:25+00:00
+2025-06-09 07:07:07,589 - INFO - Transcript length: 3775 characters
+2025-06-09 07:07:07,589 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:09,829 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:09,837 - INFO - Successfully parsed 3 chunks
+2025-06-09 07:07:09,838 - INFO - Creating embeddings for 3 chunks...
+2025-06-09 07:07:09,839 - INFO - Creating embeddings for 3 chunks
+2025-06-09 07:07:10,174 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:10,189 - INFO - [OK] Saved 3 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\FbqQ3f4j-TA.json
+2025-06-09 07:07:10,189 - INFO - Processing: ny8AALPloQQ.json
+2025-06-09 07:07:10,195 - INFO - [OK] Read transcript file ny8AALPloQQ.json
+2025-06-09 07:07:10,195 - INFO - Video: The Trump-Musk Feud Will Make Millionaires in 2025 (Here’s How) (ny8AALPloQQ)
+2025-06-09 07:07:10,195 - INFO - Channel: Felix & Friends (Goat Academy)
+2025-06-09 07:07:10,197 - INFO - Published: 2025-06-08T13:00:06+00:00
+2025-06-09 07:07:10,197 - INFO - Transcript length: 14884 characters
+2025-06-09 07:07:10,198 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:11,794 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:11,807 - INFO - Successfully parsed 5 chunks
+2025-06-09 07:07:11,811 - INFO - Creating embeddings for 5 chunks...
+2025-06-09 07:07:11,811 - INFO - Creating embeddings for 5 chunks
+2025-06-09 07:07:12,472 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:12,479 - INFO - [OK] Saved 5 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\fbOWnrZe0-c.json
+2025-06-09 07:07:12,479 - INFO - Processing: qt3h8QB_Jt8.json
+2025-06-09 07:07:12,479 - INFO - [OK] Read transcript file qt3h8QB_Jt8.json
+2025-06-09 07:07:12,479 - INFO - Video: Trump official calls out 'lethal' attitude from budget bill critics #shorts (qt3h8QB_Jt8)
+2025-06-09 07:07:12,479 - INFO - Channel: Fox Business
+2025-06-09 07:07:12,488 - INFO - Published: 2025-06-09T00:01:00+00:00
+2025-06-09 07:07:12,489 - INFO - Transcript length: 672 characters
+2025-06-09 07:07:12,490 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:12,594 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:12,603 - INFO - Successfully parsed 6 chunks
+2025-06-09 07:07:12,603 - INFO - Creating embeddings for 6 chunks...
+2025-06-09 07:07:12,603 - INFO - Creating embeddings for 6 chunks
+2025-06-09 07:07:13,444 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:13,460 - INFO - [OK] Saved 6 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\eMr7TOMVJL8.json
+2025-06-09 07:07:13,460 - INFO - Processing: su6Si4J7rRk.json
+2025-06-09 07:07:13,464 - INFO - [OK] Read transcript file su6Si4J7rRk.json
+2025-06-09 07:07:13,464 - INFO - Video: F**K THIS (su6Si4J7rRk)
+2025-06-09 07:07:13,464 - INFO - Channel: Meet Kevin
+2025-06-09 07:07:13,467 - INFO - Published: 2025-06-09T00:04:47+00:00
+2025-06-09 07:07:13,467 - INFO - Transcript length: 12124 characters
+2025-06-09 07:07:13,468 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:13,713 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:13,717 - INFO - Successfully parsed 0 chunks
+2025-06-09 07:07:13,717 - WARNING - [SKIP] Failed to create chunks for qt3h8QB_Jt8
+2025-06-09 07:07:13,717 - INFO - Processing: ZdGt-KL4yb0.json
+2025-06-09 07:07:13,724 - INFO - [OK] Read transcript file ZdGt-KL4yb0.json
+2025-06-09 07:07:13,724 - INFO - Video: Youtube Portfolio - Fidelity (ZdGt-KL4yb0)
+2025-06-09 07:07:13,724 - INFO - Channel: Trading Simplified
+2025-06-09 07:07:13,724 - INFO - Published: 2025-06-08T14:30:33+00:00
+2025-06-09 07:07:13,729 - INFO - Transcript length: 1202 characters
+2025-06-09 07:07:13,729 - INFO - Making request to Azure OpenAI for semantic chunking
+2025-06-09 07:07:13,931 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:13,934 - INFO - Successfully parsed 4 chunks
+2025-06-09 07:07:13,935 - INFO - Creating embeddings for 4 chunks...
+2025-06-09 07:07:13,935 - INFO - Creating embeddings for 4 chunks
+2025-06-09 07:07:14,226 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:14,226 - INFO - Successfully parsed 5 chunks
+2025-06-09 07:07:14,241 - INFO - Creating embeddings for 5 chunks...
+2025-06-09 07:07:14,241 - INFO - Creating embeddings for 5 chunks
+2025-06-09 07:07:14,711 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:14,711 - INFO - [OK] Saved 4 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\JEAFTFZFv9E.json
+2025-06-09 07:07:14,863 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:14,879 - INFO - [OK] Saved 5 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\28SdDfJh6YA.json
+2025-06-09 07:07:17,210 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:17,218 - INFO - Successfully parsed 5 chunks
+2025-06-09 07:07:17,219 - INFO - Creating embeddings for 5 chunks...
+2025-06-09 07:07:17,221 - INFO - Creating embeddings for 5 chunks
+2025-06-09 07:07:17,831 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:17,842 - INFO - [OK] Saved 5 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\Fs0MMrzfISg.json
+2025-06-09 07:07:20,690 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:20,696 - INFO - Successfully parsed 5 chunks
+2025-06-09 07:07:20,696 - INFO - Creating embeddings for 5 chunks...
+2025-06-09 07:07:20,698 - INFO - Creating embeddings for 5 chunks
+2025-06-09 07:07:20,787 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:20,791 - INFO - Successfully parsed 7 chunks
+2025-06-09 07:07:20,795 - INFO - Creating embeddings for 7 chunks...
+2025-06-09 07:07:20,795 - INFO - Creating embeddings for 7 chunks
+2025-06-09 07:07:20,839 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:20,843 - INFO - Successfully parsed 4 chunks
+2025-06-09 07:07:20,843 - INFO - Creating embeddings for 4 chunks...
+2025-06-09 07:07:20,843 - INFO - Creating embeddings for 4 chunks
+2025-06-09 07:07:20,868 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:20,872 - INFO - Successfully parsed 3 chunks
+2025-06-09 07:07:20,876 - INFO - Creating embeddings for 3 chunks...
+2025-06-09 07:07:20,876 - INFO - Creating embeddings for 3 chunks
+2025-06-09 07:07:21,923 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:21,924 - INFO - Successfully parsed 6 chunks
+2025-06-09 07:07:21,924 - INFO - Creating embeddings for 6 chunks...
+2025-06-09 07:07:21,924 - INFO - Creating embeddings for 6 chunks
+2025-06-09 07:07:22,372 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:22,383 - INFO - [OK] Saved 3 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\ZdGt-KL4yb0.json
+2025-06-09 07:07:22,578 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:22,594 - INFO - [OK] Saved 5 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\su6Si4J7rRk.json
+2025-06-09 07:07:22,650 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:22,662 - INFO - [OK] Saved 4 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\n5Hyz1EeBoU.json
+2025-06-09 07:07:22,751 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:22,767 - INFO - [OK] Saved 7 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\6Wt5kOrxsDA.json
+2025-06-09 07:07:23,014 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:23,027 - INFO - [OK] Saved 6 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\ny8AALPloQQ.json
+2025-06-09 07:07:24,173 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:24,176 - INFO - Successfully parsed 5 chunks
+2025-06-09 07:07:24,176 - INFO - Creating embeddings for 5 chunks...
+2025-06-09 07:07:24,176 - INFO - Creating embeddings for 5 chunks
+2025-06-09 07:07:24,823 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:24,833 - INFO - [OK] Saved 5 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\3A2lypgjMhI.json
+2025-06-09 07:07:30,051 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-09 07:07:30,056 - INFO - Successfully parsed 6 chunks
+2025-06-09 07:07:30,059 - INFO - Creating embeddings for 6 chunks...
+2025-06-09 07:07:30,059 - INFO - Creating embeddings for 6 chunks
+2025-06-09 07:07:30,872 - INFO - Successfully created embeddings (dimension: 384)
+2025-06-09 07:07:30,882 - INFO - [OK] Saved 6 chunks to D:\pipeline_testing\outputs\youtube\2025-06-09\processed\9dbkma8Uf50.json
+2025-06-09 07:07:30,888 - INFO - === Pipeline Execution Summary ===
+2025-06-09 07:07:30,896 - INFO - Pipeline stats saved to D:\pipeline_testing\outputs\youtube\2025-06-09\stats\stats_chunking.json
+2025-06-09 07:07:30,898 - INFO - === Finished Processing All Transcripts ===
+2025-06-09 07:07:30,898 - INFO - Execution time: 35.77 seconds
+2025-06-09 07:07:30,898 - INFO - Successfully processed 14/16 transcripts

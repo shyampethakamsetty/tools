@@ -1,0 +1,132 @@
+{
+    "pipeline_execution_time_seconds": 35.77,
+    "total_transcripts_found": 16,
+    "total_transcripts_processed_successfully": 14,
+    "total_transcripts_failed": 2,
+    "api_calls_made": 14,
+    "total_prompt_tokens": 37463,
+    "total_completion_tokens": 8739,
+    "total_tokens_processed": 46202,
+    "individual_transcript_stats": [
+        {
+            "video_id": "gXeoRbJ-_cc",
+            "status": "chunking_failed"
+        },
+        {
+            "video_id": "e5VzrRJTwdw",
+            "status": "success",
+            "prompt_tokens": 414,
+            "completion_tokens": 262,
+            "total_tokens": 676,
+            "chunks_created": 2
+        },
+        {
+            "video_id": "FbqQ3f4j-TA",
+            "status": "success",
+            "prompt_tokens": 752,
+            "completion_tokens": 349,
+            "total_tokens": 1101,
+            "chunks_created": 3
+        },
+        {
+            "video_id": "fbOWnrZe0-c",
+            "status": "success",
+            "prompt_tokens": 1536,
+            "completion_tokens": 615,
+            "total_tokens": 2151,
+            "chunks_created": 5
+        },
+        {
+            "video_id": "eMr7TOMVJL8",
+            "status": "success",
+            "prompt_tokens": 3124,
+            "completion_tokens": 920,
+            "total_tokens": 4044,
+            "chunks_created": 6
+        },
+        {
+            "video_id": "qt3h8QB_Jt8",
+            "status": "chunking_failed"
+        },
+        {
+            "video_id": "JEAFTFZFv9E",
+            "status": "success",
+            "prompt_tokens": 2924,
+            "completion_tokens": 648,
+            "total_tokens": 3572,
+            "chunks_created": 4
+        },
+        {
+            "video_id": "28SdDfJh6YA",
+            "status": "success",
+            "prompt_tokens": 2133,
+            "completion_tokens": 645,
+            "total_tokens": 2778,
+            "chunks_created": 5
+        },
+        {
+            "video_id": "Fs0MMrzfISg",
+            "status": "success",
+            "prompt_tokens": 2508,
+            "completion_tokens": 685,
+            "total_tokens": 3193,
+            "chunks_created": 5
+        },
+        {
+            "video_id": "ZdGt-KL4yb0",
+            "status": "success",
+            "prompt_tokens": 506,
+            "completion_tokens": 381,
+            "total_tokens": 887,
+            "chunks_created": 3
+        },
+        {
+            "video_id": "su6Si4J7rRk",
+            "status": "success",
+            "prompt_tokens": 2950,
+            "completion_tokens": 614,
+            "total_tokens": 3564,
+            "chunks_created": 5
+        },
+        {
+            "video_id": "n5Hyz1EeBoU",
+            "status": "success",
+            "prompt_tokens": 1309,
+            "completion_tokens": 510,
+            "total_tokens": 1819,
+            "chunks_created": 4
+        },
+        {
+            "video_id": "6Wt5kOrxsDA",
+            "status": "success",
+            "prompt_tokens": 4875,
+            "completion_tokens": 809,
+            "total_tokens": 5684,
+            "chunks_created": 7
+        },
+        {
+            "video_id": "ny8AALPloQQ",
+            "status": "success",
+            "prompt_tokens": 3555,
+            "completion_tokens": 674,
+            "total_tokens": 4229,
+            "chunks_created": 6
+        },
+        {
+            "video_id": "3A2lypgjMhI",
+            "status": "success",
+            "prompt_tokens": 7087,
+            "completion_tokens": 768,
+            "total_tokens": 7855,
+            "chunks_created": 5
+        },
+        {
+            "video_id": "9dbkma8Uf50",
+            "status": "success",
+            "prompt_tokens": 3790,
+            "completion_tokens": 859,
+            "total_tokens": 4649,
+            "chunks_created": 6
+        }
+    ]
+}
